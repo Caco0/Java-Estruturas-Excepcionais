@@ -30,7 +30,7 @@ public class TryCatch {
                 scanner.close();
         }
         catch(Exception e){
-            System.err.println("Os campos Idade e altura precisam ser numéricos");
+            System.errL.println("Os campos Idade e altura precisam ser numéricos");
         }
     }
 }
